@@ -68,7 +68,7 @@ long return_julian_date(long in_year, long in_month, long in_day) {
 		julian_date += return_days_in_month(in_year, month);
 		//cout << in_year << endl;
 		//cout << in_month << endl;
-		cout << return_days_in_month(in_year, in_month) << endl;
+		cout   << return_days_in_month(in_year, in_month) << endl;
 	}
 	julian_date += in_day;
 
@@ -87,7 +87,7 @@ int main() {
 	month_entered = query_for_long("Enter a month: ");
 	day_entered   = query_for_long("Enter a day: ");
 
-	julian_date = return_julian_date(year_entered, month_entered, day_entered);
+	julian_date   = return_julian_date(year_entered, month_entered, day_entered);
 
 	cout << "The Julian Date is: " << julian_date << endl;
 
