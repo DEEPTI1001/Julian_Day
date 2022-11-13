@@ -2,7 +2,7 @@
 
 /*
 Assignment: Counting Julian Day.
-Author:     Deepti Sharma
+Student:     Deepti Sharma
 Due Date:   10-23-2022
 */
 
